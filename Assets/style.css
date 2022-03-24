@@ -41,7 +41,7 @@ body{
     position: absolute;
     height: 15px;
     margin-top: -230px;
-    margin-left: 820px;
+    margin-left: 620px;
     border-radius: 50%;
     border: solid 5px #047aed;
 }
@@ -154,7 +154,7 @@ p{
         margin-top: 150px;
     }
     .elipse-one {
-        margin-left: 500px;
+        margin-left: 400px;
     }
 }
 @media (max-width: 790px) {
@@ -178,9 +178,15 @@ p{
         margin-right: 50px;
     }
     .centered-img{
-        height: 40vh;
+        height: 35vh;
     }
     .center-img{
-        height: 40vh;
+        height: 35vh;
     }
+    .elipse-one {
+        margin-left: 300px;
+    }
+}
+@media (max-width: 400px) {
+
 }
