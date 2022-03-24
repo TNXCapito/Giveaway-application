@@ -188,5 +188,10 @@ p{
     }
 }
 @media (max-width: 400px) {
-
+    .centered-img{
+        height: 20vh;
+    }
+    .center-img{
+        height: 20vh;
+    }
 }
