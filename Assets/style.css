@@ -178,20 +178,26 @@ p{
         margin-right: 50px;
     }
     .centered-img{
-        height: 35vh;
+        height: 30vh;
     }
     .center-img{
-        height: 35vh;
+        height: 30vh;
+    }
+    .graphic-img {
+        width: 50vw;
+        margin-top: -100px;
+    }
+    .img-2 {
+        margin-left: 130px;
     }
     .elipse-one {
         margin-left: 300px;
     }
-}
-@media (max-width: 400px) {
-    .centered-img{
-        height: 20vh;
+    .all-input{
+        margin-right: 90px;
+        animation: slideInFromBottom 1s ease-in;
     }
-    .center-img{
-        height: 20vh;
+    .image-container {
+        animation: slideInFromTop 1s ease-in;
     }
 }
