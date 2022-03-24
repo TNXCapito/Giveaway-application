@@ -23,6 +23,10 @@ body{
     border-radius: 50%;
     border: 5px #047aed solid;
 }
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
 .rctangle-jnrs{
     width: 15px;
     position: absolute;

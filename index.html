@@ -38,7 +38,9 @@
             <img class="gift-item" src="Assets/images/favicon.png.png" alt="">
             <p>Enter your informations correctly to claim prize.</p>
             <div class="form-container">
-                <form>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field"/></label></p>
                     <h3>Full Name </h3>
                     <div class="form-input">
                     <input type="text" name="Full-name" required>
